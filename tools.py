@@ -19,7 +19,7 @@ def ucb_Q(sum_cnt, single_cnt):
     return np.sqrt(res)
 
 
-def get_reward(D, T, ):
+def get_reward(D, T):
     base_reward = 0
     base_reward -= ALPHA * D
     if T >= 0:
